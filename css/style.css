@@ -1,0 +1,146 @@
+/* MAIN */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ADD8E6;
+    height: 483px;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #23272A;
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+}
+/* Classi *
+
+    /* Classe HEADER */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.header {
+    border: 2px dashed black;
+    font-size: 17px;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    background-color: #DAA521;
+}
+
+.background {
+    background-color: #00008B;
+    height: 400px;
+}
+
+.quadratoViola {
+    background-color: #EE81EE;
+    height: 315px;
+    border: 2px dashed black;
+    width: 50%;
+    margin: 40px auto;
+}
+
+    /* Classe MAIN */
+.quadratoBlu {
+    background-color: #1D90FF;
+    height: 615px;
+    border: 2px dashed black;
+    width: 60%;
+    margin: 40px auto;
+}
+
+.quadratoRosa {
+    background-color: #FFBFCB;
+    height: 615px;
+    border: 2px dashed black;
+    width: 40%;
+    margin: 40px auto;
+}
+
+.quadratoVerde {
+    background-color: #238B21;
+    height: 1110px;
+    border: 2px dashed black;
+    width: 100%;
+    margin: 40px auto;
+}
+
+.backgrGray {
+    background-color: #D3D3D3;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+ /* Classe FOOTER */
+
+ .quadratoPesca {
+    background-color: #F08080;
+    height: 569px;
+    border: 2px dashed black;
+    width: 25%;
+    margin: 40px auto;
+}
+
+.quadratoPetrolio {
+    display: flex;
+    background-color: #20B2AA;
+    height: 569px;
+    border: 2px dashed black;
+    width: 75%;
+    margin: 40px auto;
+}
+
+.sottocella {
+    border: 2px dashed white;
+    width: 25%;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 65px;
+    background-color: #7FFFD4;
+    margin-top: 23px;
+}
+
+.footerBox {
+    border: 2px dashed black;
+    background-color: #FFB6C0;
+    align-self: center;
+    width: 60px;
+    height: 30px;
+    font-size: 17px;
+}
+
+/* TAG */
+hr {
+    background-color: #D3D3D3;
+}
