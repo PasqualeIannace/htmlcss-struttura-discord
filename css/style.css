@@ -37,6 +37,10 @@ footer {
 .header {
     border: 2px dashed black;
     font-size: 17px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 8px;
 }
 
 .headerContainer {
@@ -137,7 +141,10 @@ footer {
     align-self: center;
     width: 60px;
     height: 30px;
-    font-size: 17px;
+    text-align: center;
+    font-size: 17px; 
+    padding-top: 3px;
+
 }
 
 /* TAG */
